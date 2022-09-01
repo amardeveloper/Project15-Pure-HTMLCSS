@@ -1,0 +1,419 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+/*---------NAVBAR-AREA----------*/
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5%;
+}
+.logo> img {
+    filter: invert(13%) sepia(77%) saturate(6948%) hue-rotate(359deg) brightness(98%) contrast(112%);
+    margin: 1.3em 0em;
+    height: 50px;
+
+}
+
+.menu-logo {
+    filter: invert(13%) sepia(77%) saturate(6948%) hue-rotate(359deg) brightness(98%) contrast(112%);
+    margin: 1.3em 0em;
+    height: 40px;
+    display: none;
+    
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 2em;
+    
+}
+
+li{
+    
+    margin-right: 3em;
+}
+
+li> img {
+    height: 10px;
+    margin: 1px 5px;
+}
+
+li> a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/*---------HERO-AREA----------*/
+
+.hero-area {
+    display: flex;
+    padding: 0% 5%;
+    background-color: black;
+    
+}
+.left-area {
+    width: 50%;
+}
+.right-area {
+    width: 40%;
+}
+
+.left-area> img {
+    width: 100%;
+}
+
+.right-area> h6{
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 7em;
+}
+.right-area> h1 {
+    color: white;
+    font-size: 4em;
+    font-weight: 1000;
+}
+.right-area> p{
+    color: grey;
+    font-size: 1.2em;
+    margin-top: 0.2em;
+}
+
+.hero-button {
+    color: white;
+    background-color: red;
+    font-size: 1.5em;
+    padding: 0.3em 1em;
+    margin-top: 1.5em;
+    font-weight: bold;
+}
+
+.cards-section {
+    padding: 8% 11%;
+  background: linear-gradient(to right, #111314 0%, #111314 50%, #000 50%, #000 100%);
+  display: flex;
+  justify-content: space-around;
+
+}
+.card {
+    width: 26%;
+    padding: 3em;
+    margin: 0% 1.5%;
+}
+.card> img {
+    height: 80px;
+}
+.card> h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 1000;
+    margin-top: 1em;
+    
+}
+
+.card> p{
+    color: white;
+    font-size: 18px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.card1> a, .card3> a{
+    color: red;
+    font-family: bold;
+    text-decoration: none;
+   
+}
+.card2> a{
+    color: white;
+    font-family: bold;
+    text-decoration: none;
+}
+
+.card1, .card3 {
+    background-color: #232526;
+}
+.card2 {
+    background-color: #B4161B;
+}
+/*-------------------Achievements-Area--------------------->*/
+
+.numbers-section {
+    padding: 0% 10% 8% 10%;
+  background: linear-gradient(to right, #111314 0%, #111314 50%, #000 50%, #000 100%);
+  display: flex;
+  justify-content: center;
+}
+.numbers {
+    width: 32%;
+    text-align: center;
+}
+.numpart {
+    background-color: #232526;
+    padding: 2em 3em;
+    margin: 1em 0.5em;
+    
+}
+
+.numpart> h1 {
+    color: red;
+    font-size: 45px;
+}
+
+.numpart> p {
+    color: white;
+    font-size: 20px;
+}
+
+.numbers:nth-child(1){
+    padding-top: 4em;
+}
+
+.numbers:nth-child(1)> h1 {
+    font-size: 110px;
+    color: red;
+    font-weight: 1000;
+    
+    
+}
+
+.numbers:nth-child(1)> h3 {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+/*-------------------Banner-section--------------------->*/
+
+.banner-section {
+    padding: 4% 12% 8% 12%;
+    background-color: black;
+}
+
+ .banner1 h1 {
+    color: white;
+    font-size: 30px;
+    font-family: bold;
+}
+.banner1 p {
+    color: white;
+    margin: 5px 0px;
+}
+
+.banner2 button {
+    background-color: #B4161B;
+    padding: 0.9em 1.8em;
+    color: white;
+    margin: 5px 0px;
+}
+
+.banners {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.banner {
+    width: 48%;
+}
+.innerbanner{
+    
+    background-color: #232526;
+}
+.innerbanner> img {
+    width: 90%;
+    padding: 12% 5%;
+}
+img[src='./assests/pic3.jpg']{
+    padding: 8% 5%;
+}
+.banner> h2 {
+    color: white;
+    font-weight: bold;
+    margin-top: 0.8em;
+}
+.banner> a {
+    color: red;
+    font-family: bold;
+    text-decoration: none;  
+    margin-top: 0.6em;
+}
+/*---------Final-section----------*/
+
+.final {
+    background-color: black;
+    padding: 0% 5%;
+    
+}
+.semi-final {
+    background-color: #232526;
+    width: 80%;
+    margin: auto;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.semi-final>div> h1 {
+    color: white;
+    font-size: 55px;
+}
+.semi-final>div> p{
+    color: white;
+    margin-top: 3%;
+}
+
+.semi-final>div> button {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #B4161B;
+    padding: 0.9em 2em;
+    margin: auto;
+}
+
+.semi-final>div:nth-child(1) {
+    width: 65%;
+}
+.semi-final>div:nth-child(2) {
+    width: 35%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1160px) {
+
+    /*---------Hero-area change----------*/
+    .left-area {
+        width: 55%;
+    }
+
+    .right-area {
+        width: 35%;
+    }
+    .right-area> h6{
+        font-size: 1.3em;
+        margin-top: 5em;
+    }
+
+    .right-area> h1 {
+        font-size: 3.5em;
+        
+    }
+    .right-area> p{
+        font-size: 1.1em;
+    }
+    .hero-button {
+        margin-bottom: 2em;
+        font-size: 1.3em;
+        padding: 0.3em 1em;
+    }
+
+        /*---------CARDAREA CHANGE----------*/
+
+    .card {
+        width: 26%;
+        padding: 2em;
+        margin: 0% 1.5%;
+    }
+    .card> img {
+        height: 65px;
+    }
+    .card> h1 {
+        color: white;
+        font-size: 30px;
+        font-weight: 1000;
+        margin-top: 1em;
+        
+    }
+}
+@media screen and (max-width:769px){
+
+/*---------NAVBAR-CHANGE----------*/
+    .menu-logo {
+        
+        display: block;
+        
+    }
+    
+    ul{
+        
+        display: none;
+        
+        
+    }
+
+    /*---------HEROAREA CHANGE----------*/
+    .hero-area {
+        flex-direction: column;  
+        
+    }
+
+    .left-area {
+        width: 90%;
+    }
+    .right-area {
+        width: 90%;
+        padding: 0% 5%;
+    }
+    /*---------CARDAREA CHANGE----------*/
+    .cards-section {
+        flex-direction: column; 
+        align-items: center;
+        align-content: center;
+    }
+    .card{
+        width: 60%;
+        margin: 5% 0%;
+    }
+    /*-------------------Achievements-Area--------------------->*/
+    .numbers-section {
+      flex-direction: column;
+      align-items: center;
+        align-content: center;
+    }
+
+    .numbers {
+        width: 75%;
+        margin-top: 5%;
+    }
+
+    /*-------------------Banner-section--------------------->*/
+    .banners {
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner{
+        padding-top: 4%;
+        width: 75%;
+    }
+
+    /*---------Final-section----------*/
+
+    .semi-final {
+        flex-direction: column;
+        
+        padding: 2%;
+    }
+    .semi-final>div {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+    .semi-final>div>h1 {
+        font-size: 40px;
+    }
+    .semi-final>div>p {
+        margin-top: 5%;
+    }
+
+    .semi-final>div>button {
+        margin-top: 30%;
+        margin: auto;
+    }
+}
